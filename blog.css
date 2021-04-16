@@ -207,6 +207,9 @@ td:hover{
     .container{
 	display:flex;
 	flex-direction:row;
+	max-width:1365px;
+	width:100%;
+	margin:auto;
     }
 
     main{
@@ -222,13 +225,5 @@ td:hover{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-    }
-}
-
-@media only screen and (min-width:1520px){
-    .container{
-	max-width:76%;
-	width:100%;
-	margin:auto;
     }
 }
